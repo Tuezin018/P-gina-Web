@@ -1,0 +1,60 @@
+body{
+  color: preto;
+  background: red;
+  margin: 100px;
+}
+
+header{
+  font-size: 40px;
+  color: white;
+  border-bottom: solid 4px white;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Sankofa Display";
+}
+
+.inicio{
+  background: darkred;
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  font-family: "Shadows Into Light";
+}
+
+.entrada{
+  margin_right: 50px;
+}
+
+.descricao{
+  font-size: 30px;
+  text-align: justify;
+}
+
+img{
+  height: 200px;
+}
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.outros{
+   font-family: "Shadows Into Light";
+  font-size: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.outros img{
+  opacity: 1.0;
+}
+
+.outros img:hover{
+  opacity: 0.5;
+  border: solid 8px black;
+  border-radius: 20px;
+}
